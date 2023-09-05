@@ -49,11 +49,17 @@ if (numberGiven % 5 === 0) {
 
 const num3 = 8;
 const num4 = 12;
-if (num3 === 8 || num4 === 8 || num3 + num4 === 8) {
-  console.log("uno dei due numeri è 8, o la somma fra loro è 8.");
+if (
+  num3 === 8 ||
+  num4 === 8 ||
+  num3 + num4 === 8 ||
+  num3 - num4 === 8 ||
+  num4 - num3 === 8
+) {
+  console.log("uno dei due numeri è 8, o la somma/sottrazione fra loro è 8.");
 } else {
   console.log(
-    "nessuno dei due numeri è uguale a 8, né tantomeno la loro somma."
+    "nessuno dei due numeri è uguale a 8, né tantomeno la loro somma/sottrazione."
   );
 }
 
