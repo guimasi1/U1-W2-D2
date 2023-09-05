@@ -113,7 +113,7 @@ const c = 9;
 
 const numInOrder = [];
 
-if (a <= b && a <= b) {
+if (a <= b && a <= c) {
   numInOrder.push(a);
   if (b <= c) {
     numInOrder.push(b);
